@@ -5,8 +5,7 @@ import eventos from "./eventosRoutes.js";
 const routes = (app) => {
     app.route('/').get((req, res) =>
         res.status(200).send('Bem vindo ao node.js'));
-    app.use(express.json(), participantes);
-    app.use(express.json, eventos)
+    app.use(express.json(), participantes, eventos);
 }
 
 export default routes

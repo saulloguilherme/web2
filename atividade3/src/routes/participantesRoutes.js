@@ -1,6 +1,5 @@
 import express from "express";
 import participantesController from "../controllers/participantesController.js";
-
 const routes = express.Router();
 
 routes.get("/participantes", participantesController.listarParticipantes);

@@ -34,7 +34,7 @@ class participanteController {
         try{
             const id = req.params.id;
             await participante.findByIdAndUpdate(id, req.body);
-            res.satus(200).json({message: "participante atualizado"});
+            res.status(200).json({message: "participante atualizado"});
         } catch (erro){
             res.status(500).json({message: `${erro.message} - falha na atualização`})
         }
