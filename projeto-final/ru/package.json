@@ -10,11 +10,17 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
+    "axios": "^1.7.9",
     "expo": "~52.0.32",
+    "expo-linear-gradient": "^14.0.2",
     "expo-status-bar": "~2.0.1",
+    "jwt-decode": "^4.0.0",
+    "qrcode.react": "^4.2.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-hook-form": "^7.54.2",
     "react-native": "0.76.7",
+    "react-native-qrcode-svg": "^6.3.14",
     "react-native-web": "~0.19.13",
     "react-router-dom": "^6.29.0"
   },

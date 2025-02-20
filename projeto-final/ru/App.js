@@ -10,11 +10,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' Component={Home}/>
-        <Route path='/cardapio' Component={Cardapio}/>
-        <Route path='/reservas' Component={Reservas}/>
-        <Route path='/sobre' Component={Sobre}/>
-        <Route path='/ticket' Component={Ticket}/>
+        <Route path='/' Component={Home} />
+        <Route path='/cardapio' Component={Cardapio} />
+        <Route path='/reservas' Component={Reservas} />
+        <Route path='/sobre' Component={Sobre} />
+        <Route path='/ticket' Component={Ticket} />
       </Routes>
     </BrowserRouter>
   );
